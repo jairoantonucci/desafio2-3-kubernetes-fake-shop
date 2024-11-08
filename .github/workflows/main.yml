@@ -24,9 +24,9 @@ jobs:
           push: true
           file: ./src/Dockerfile
           tags: |
-            jairoantonucci/fake-shop:latest
-            jairoantonucci/fake-shop:v${{ github.run_number }}
-            
+            jairoantonucci/shop-fake:latest
+            jairoantonucci/shop-fake:v${{ github.run_number }}
+
   cd:
     runs-on: ubuntu-latest
     needs: [ci]
