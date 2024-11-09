@@ -53,6 +53,5 @@ jobs:
         with:
           manifests: |
             .src/k8s/deployment.yaml
-
           images: |
             jairoantonucci/fake-shop:v${{ github.run_number }}
